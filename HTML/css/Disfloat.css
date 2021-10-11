@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{ 
+    background-color: white;
+    height: 200px;
+}
+#caja0{ 
+    width: 700px;
+    height: 50px;
+    background-color: blue;
+}
+#caja0 .item0{ 
+    width: 10%;
+    background-color: red;
+    height: 30px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-right: 1%;
+    
+}
+
+#caja0 .item00{ 
+    width: 25%;
+    background-color: red;
+    height: 30px;
+    float: left;
+    margin-left: 50%;
+ margin-top:1%;
+    margin-right: 1%;
+    
+}
+#caja1{ 
+    width: 700px;
+    height: 230px;
+    background-color: orange;
+}
+#caja1 .item{ 
+    width: 50%;
+    background-color: red;
+    height: 170px;
+    float: left;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-right: 1%;
+    
+}
+
+.borde{ 
+    
+    border-radius:30px;
+}
+#caja2{ 
+    background-color: purple;
+    height: 200px;
+    width: 700px;
+}
+#caja2 .item2{ 
+    background-color: black;
+    width: 10%;
+    height: 70%;
+    display: inline-block;
+    margin-left: 11%;
+    margin-top: 20px;
+}
+#caja3{ 
+    background-color: black;
+    height: 230px;
+    width: 700px;
+}
+#caja3 .item3{ 
+    background-color: gray;
+    width: 47%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 0%;
+    margin-top: 0px;
+}
+#caja4{ 
+    background-color: purple;
+    height: 200px;
+    width: 700px;
+}
+#caja4 .item4{ 
+    background-color: green;
+    width: 11%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 9.75%;
+    margin-top: 0px;
+}
+#caja4 .item44{ 
+    background-color: white;
+    width: 5%;
+    height: 100%;
+    display: inline-block;
+    margin-left: -0.5%;
+    margin-top: 0px;
+}
+#caja5{ 
+    background-color: rgb(39, 19, 39);
+    height: 50px;
+    width: 700px;
+}
+#caja6{ 
+    background-color: rgb(158, 123, 158);
+    height: 250px;
+    width: 700px;
+}
+#caja6 .item6{ 
+    background-color: rgb(66, 46, 66);
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 15px;
+    margin-right: 100px;
+}
+#caja66{ 
+    background-color: rgb(158, 123, 158);
+    height: 250px;
+    width: 700px;
+}
+#caja66 .item66{ 
+    background-color: rgb(66, 46, 66);
+    width: 9%;
+    height: 25%;
+    display: inline-block;
+    margin-left: 48%;
+    margin-top: 0px;
+    transform: rotate(50deg);
+
+   
+}
+#caja666{ 
+    background-color: rgb(158, 123, 158);
+    height: 250px;
+    width: 700px;
+}
+#caja666 .item666{ 
+    background-color: rgb(66, 46, 66);
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 180px;
+    margin-right: 100px;
+}
+
