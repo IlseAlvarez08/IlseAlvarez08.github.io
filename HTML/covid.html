@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>covid</title>
+    <link rel="stylesheet" href="./css/covid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Festive&family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="logo" class="item">
+            <h1>COVID 19</h1>
+        </div>
+        <nav class="item">
+            <ul id="menuW">
+                <li>
+                    <a href="#main" data-scroll="">Inicio</a>
+                </li>
+                <li>
+                    <a href="#where" data-scroll="">Que es</a>
+                </li>
+                <li>
+                    <a href="#sintomas" data-scroll="">sintomas</a>
+                </li>
+                <li>
+                    <a href="#prevencion" data-scroll="">contactanos</a>
+                </li>
+                
+            </ul>
+            <ul id="menuMovil">
+                <li>
+                    <a href="">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="main">
+        <div class="col">
+            <img src="./img/covidd.png" data-aos="flip-left"/>
+         </div>
+        
+     
+        
+</section>
+<section id="where">
+    <h2>SARS COV-2</h2>
+    <div class="col">
+       <img src="./img/covid.png" data-aos="flip-left"/>
+    </div>
+
+    
+    <div class="col">
+        <h2>Qué es COVID-19</h2>
+        <p>La enfermedad por coronavirus (COVID‑19) es una enfermedad infecciosa provocada por el virus SARS-CoV-2.
+            La mayoría de las personas que padecen COVID‑19 sufren síntomas de intensidad leve a moderada y se recuperan 
+            sin necesidad de tratamientos especiales. Sin embargo, algunas personas desarrollan casos graves y necesitan 
+            atención médica.
+            
+
+            
+        </p>
+        <p>El virus puede propagarse desde la boca o la nariz de una persona infectada en forma de pequeñas partículas 
+            líquidas que expulsa cuando tose, estornuda, habla, canta o respira. Estas partículas pueden ser desde 
+            pequeños aerosoles hasta gotitas respiratorias más grandes.
+           
+       </p>
+       <p>Todas las personas que presenten síntomas deben hacerse la prueba, en la medida de lo posible. Las personas 
+           que sean asintomáticas pero que hayan estado en contacto estrecho con alguien que esté o pueda estar infectado 
+           también pueden considerar la posibilidad de hacerse la prueba.
+       
+   </p>
+       
+    </div>
+    <div class="col">
+        <img src="./img/sinto.jpg"/>
+     </div>
+</section>
+<div id="contacto">
+        
+    <div class="col">
+       <i class="fas fa-user"></i>
+       <form>
+
+           <fieldset id="información" >
+            <legend>Información Personal</legend>
+            <div id="nombre">
+               Nombre: <input name='nombre' type='text' tabindex='1'>
+            </div>
+            <div id="Email">
+               E-mail: <input name='E-mail' type='text' tabindex='2'>
+            </div>
+            <div id="telefono">
+               Telefono: <input name='Telefono' type='text' tabindex='3'>
+            </div>
+            <div id="comentarios">
+               Comentarios: <input name='Comentarios' type='text' tabindex='4'>
+            </div>
+           </fieldset>
+           <a href="#" class="btn btnPrimary">ENVIAR</a>
+          </form>
+        
+        
+    </div>
+    
+   
+</div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+AOS.init();
+var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+</body>
+</html>
