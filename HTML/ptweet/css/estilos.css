@@ -25,7 +25,7 @@ main .col{
 main .col:first-child{
     flex: 2;
     background-image:url(../img/fondo.png);
-    background-size: 100% 100%;
+    background-size: 105% 100%;
 }
 main .col:last-child{
     /*este pading es como las manecillas del reloj*/
